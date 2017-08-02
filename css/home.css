@@ -50,26 +50,34 @@ transition: all 2.5s ease;
 /* Section Heights*/
 #top{
   width: 100%;
-  height: 500px;
-  background-color: rgb(228, 204, 146);
+  height: 650px;
   position: relative;
   top: 0px;
+  margin: auto;
 }
 #moodSelection{
   width: 100%;
   height: 600px;
-  background-color: rgb(252, 116, 155);
+  background-color: rgba(119, 222, 223, 0.81);
 }
 
 /* button */
 .buttonToSelect{
+  background-color: rgba(119, 222, 223, 0.81);
+  color: white;
   position:absolute;
   top:70%;
   text-align: center;
   width: 20%;
   padding:15px 25px;
   border-radius: 100px;
-  background-color: white;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+.buttonToSelect:hover{
+  background-color: rgba(130, 169, 244, 0.81);
 }
 
 a{
