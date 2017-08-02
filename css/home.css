@@ -46,9 +46,15 @@ transition: all 2.5s ease;
 /* FLYIN RESPONSIVE TEXT*/
 
 @media only screen and (max-width: 850px) {
-    body {
-        background-color: lightblue;
-    }
+      .fly-in-text li{
+        font-size: 2em;
+        margin-right: 30px;
+      }
+}
+@media only screen and (max-width: 500px) {
+      .fly-in-text li{
+        font-size: 1.2em;
+      }
 }
 /* end of flyin */
 
@@ -85,7 +91,7 @@ transition: all 2.5s ease;
 .buttonToSelect:hover{
   background-color: rgba(130, 169, 244, 0.81);
 }
-
+/* RESPONSIVE BUTTON*/
 a{
   text-decoration: none;
 }
