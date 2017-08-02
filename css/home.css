@@ -62,7 +62,8 @@ transition: all 2.5s ease;
 }
 
 /* button */
-#top button{
+.buttonToSelect{
+  width: 20%;
   display: block;
   padding:15px 25px;
   border: none;
