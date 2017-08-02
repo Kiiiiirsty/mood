@@ -63,7 +63,7 @@ transition: all 2.5s ease;
 
 /* button */
 .buttonToSelect{
-  position:inherit;
+  position:absolute;
   text-align: center;
   width: 20%;
   display: block;
