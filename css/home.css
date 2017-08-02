@@ -6,46 +6,33 @@
 
 #logo{
   display: block;
-  margin: auto;
   position: relative;
   top: 30px;
 }
-
+body{
+  background-color: rgb(62, 95, 98);
+}
 
 /* FLY IN CSS */
 .fly-in-text {
+list-style: none;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%);
+}
 
-                list-style: none;
+  .fly-in-text li {
+display: inline-block;
+margin-right: 50px;
+font-family: Open Sans, Arial;
+font-weight: 300;
+font-size: 4em;
+color: #fff;
+opacity: 1;
+transition: all 2.5s ease;
 
-                position: absolute;
-
-                left: 50%;
-
-                top: 50%;
-
-                transform: translateX(-50%) translateY(-50%);
-
-            }
-
-            .fly-in-text li {
-
-                display: inline-block;
-
-                margin-right: 50px;
-
-                font-family: Open Sans, Arial;
-
-                font-weight: 300;
-
-                font-size: 4em;
-
-                color: #fff;
-
-                opacity: 1;
-
-                transition: all 2.5s ease;
-
-            }
+  }
 
             .fly-in-text li:last-child {
 
