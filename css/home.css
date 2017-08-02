@@ -31,29 +31,20 @@ font-size: 4em;
 color: #fff;
 opacity: 1;
 transition: all 2.5s ease;
+}
 
+.fly-in-text li:last-child {
+  margin-right: 0;
   }
 
-            .fly-in-text li:last-child {
+.fly-in-text.hidden li {
+  opacity: 0;
+  }
 
-                margin-right: 0;
-
-            }
-
-            .fly-in-text.hidden li {
-
-                opacity: 0;
-
-            }
-
-            .fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
-
-            .fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
-
-            .fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
-
-            .fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
-
-            .fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
 
 /* end of flyin */
