@@ -10,6 +10,10 @@
   position: relative;
   top: 30px;
 }
+/* NAVBAR STYLE*/
+/* NAVBAR RESPONSIVE*/
+
+
 
 /* FLY IN CSS */
 .fly-in-text {
@@ -72,17 +76,20 @@ transition: all 2.5s ease;
   height: 600px;
   background-color: rgba(119, 222, 223, 0.81);
 }
+/* end of sections */
 
 /* button */
 .buttonToSelect{
+  margin-top: 300px;
   background-color: rgba(119, 222, 223, 0.81);
   color: white;
-  position:absolute;
-  top:70%;
+  position:static;
   text-align: center;
   width: 20%;
   padding:15px 25px;
   border-radius: 100px;
+  font-size: 1em;
+  letter-spacing: 2px;
   -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
@@ -92,6 +99,13 @@ transition: all 2.5s ease;
   background-color: rgba(130, 169, 244, 0.81);
 }
 /* RESPONSIVE BUTTON*/
+@media only screen and (max-width: 850px) {
+      .buttonToSelect{
+        font-size:0.6em;
+      }
+}
+/* end of button */
+
 a{
   text-decoration: none;
 }
