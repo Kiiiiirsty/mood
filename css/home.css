@@ -1,0 +1,12 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+#logo{
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 30px;
+}
