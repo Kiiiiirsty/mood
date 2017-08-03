@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <link  href="css/home.css" rel="stylesheet"  type="text/css"/>
+  <meta charset="utf-8" />
+
+  <title>mood</title>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- fonts  and icons -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700|Work+Sans:100,300,400,500" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/flyin.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <div id="top">
+
+    <div id="navbar">
+
+
+      <ul>
+        <a href="about.html"><li>About Us</li></a>
+        <a href="mind.html"><li>Mindfullness</li></a>
+        <a href="resources.html"><li>Resources</li></a>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h2>Carousel Example</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="C:\Users\user\Pictures\lol.jpg" alt="Los Angeles" style="width:40%;">
+          </div>
+
+          <div class="item">
+            <img src="C:\Users\user\Pictures\lol.jpg" alt="Chicago" style="width:40%;">
+          </div>
+
+          <div class="item">
+            <img src="C:\Users\user\Pictures\lol.jpg" alt="New york" style="width:40%;">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+     <ul class="fly-in-text hidden">
+         <li>m</li>
+         <li>o</li>
+         <li>o</li>
+         <li>d</li>
+         <li>.</li>
+      </ul>
+
+    <a href="#moodSelection"><div class="buttonToSelect">SELECT MOOD</div></a>
+
+  </div>
+
+
+<div class="container">
+
+  <div id="moodSelection">
+   <p>
+     how do feel ?
+   </p>
+    <div class="button happy">
+      happy
+    </div>
+    <div class="button relaxed">
+      relaxed
+    </div>
+
+    <div class="button down">
+      down
+    </div>
+
+    <div class="button anxious">
+      anxious
+    </div>
+
+    <div class="button neutral">
+      neutral
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+</html>
