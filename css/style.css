@@ -59,15 +59,20 @@ p{
 
 }
 
+i{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
 
+}
 #footer{
   width: 100%;
-  height: 80px;
+  height: 150px;
   background-color: rgb(46, 89, 91);
   color: white;
   margin-top: 20px;
-  position: relative;
-  bottom: 0px;
+  position:static;
+  bottom: 0px
 }
 
 #footer p{
@@ -77,4 +82,7 @@ p{
 #footer iframe{
   float: right;
   position: relative;
+}
+#footer h6{
+  padding-top: 10px;
 }
