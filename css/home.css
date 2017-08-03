@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .fa-chevron-up{
   position: static;
   z-index: 100;
@@ -140,7 +144,7 @@ transition: all 2.5s ease;
 @media only screen and (max-width: 850px) {
       .buttonToSelect{
         font-size:0.6em;
-          margin-top: 150px;
+        margin-top: 150px;
       }
 }
 /* end of button */
