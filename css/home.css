@@ -2,19 +2,12 @@
   margin: 0 auto;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
-  text-align: center;
 }
 
 body{
     overflow-x: hidden;
 }
 
-.fa-chevron-up{
-  position: static;
-  z-index: 100;
-  float: right;
-  margin-right: 5px;
-}
 #logo{
   display: block;
   position: relative;
@@ -28,6 +21,7 @@ body{
 padding: 40px;
 display: block;
 position: relative;
+text-align: center;
 }
 
 #navbar li{
@@ -112,9 +106,11 @@ transition: all 2.5s ease;
   top: 0px;
   margin: auto;
   background-color: black;
+    text-align: center;
 }
 #moodSelection{
-  padding: 60px;
+  text-align: center;
+  padding: 60px auto;
   width: 100%;
   height: 660px;
   background-color: white;
