@@ -123,7 +123,7 @@ padding-top: 60px;
 
 /* button */
 .buttonToSelect{
-  margin-top: 300px;
+  margin-top: 200px;
   background-color: rgba(119, 222, 223, 0.81);
   color: white;
   position:static;
@@ -136,6 +136,7 @@ padding-top: 60px;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;
+  z-index: 100;
 }
 .buttonToSelect:hover{
   background-color: rgba(130, 169, 244, 0.81);
