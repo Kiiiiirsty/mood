@@ -101,3 +101,14 @@ input{
   background-color: rgba(119, 222, 223, 0.81);
   margin: 7px;
 }
+
+.resourceList ul{
+  padding-top: 20px;
+}
+.resourceList a{
+color: rgb(223, 93, 77);
+}
+
+.resourceList a:hover{
+color: rgb(77, 153, 223);
+}
