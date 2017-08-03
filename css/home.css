@@ -160,8 +160,10 @@ a{
 /*  BUTTON */
 
 .button{
+  margin: auto;
   display: block;
   margin-top: 7%;
+  margin-bottom: 30px;
   background-color: rgba(119, 222, 223, 0.81);
   color: white;
   position:static;
@@ -174,7 +176,7 @@ a{
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;
-  margin-bottom: 30px;
+
 }
 
 .button:hover{
