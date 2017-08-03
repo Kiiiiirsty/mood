@@ -115,6 +115,10 @@ transition: all 2.5s ease;
   height: 660px;
   background-color: white;
 }
+
+#moodSelection:p{
+padding-top: 60px;
+}
 /* end of sections */
 
 /* button */
