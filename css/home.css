@@ -139,6 +139,7 @@ padding-top: 60px;
 }
 .buttonToSelect:hover{
   background-color: rgba(130, 169, 244, 0.81);
+  text-decoration:none;
 }
 /* RESPONSIVE BUTTON*/
 @media only screen and (max-width: 850px) {
