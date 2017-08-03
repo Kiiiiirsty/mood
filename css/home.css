@@ -5,7 +5,12 @@
   text-align: center;
 }
 
-
+.fa-chevron-up{
+  position: static;
+  z-index: 100;
+  float: right;
+  margin-right: 5px;
+}
 #logo{
   display: block;
   position: relative;
@@ -24,7 +29,7 @@ position: relative;
 #navbar li{
   display: inline;
   padding-right:40px;
-  color: rgb(46, 89, 91);
+  color: #ffffff;
   letter-spacing: 1px;
 }
 
@@ -33,7 +38,7 @@ position: relative;
 }
 
 #navbar li:hover{
-  color: #ffffff;
+  color: rgb(215, 224, 43);
 }
 
 /* NAVBAR RESPONSIVE*/
@@ -61,7 +66,7 @@ display: inline-block;
 margin-right: 50px;
 font-weight: 300;
 font-size: 4em;
-color: rgb(46, 89, 91);
+color: white;
 opacity: 1;
 transition: all 2.5s ease;
 }
@@ -102,7 +107,7 @@ transition: all 2.5s ease;
   position: relative;
   top: 0px;
   margin: auto;
-  background-color: rgba(119, 222, 223, 0.81);
+  background-color: black;
 }
 #moodSelection{
   width: 100%;
